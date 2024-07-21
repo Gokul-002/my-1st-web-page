@@ -1,0 +1,92 @@
+*
+{
+    margin: 0;
+    padding: 0%;
+}
+nav{
+    /* background-color:red;
+    border: 2px solid rgb(31, 28, 28); */
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    width: 50%;
+    color: black;
+}
+nav ul li:hover{
+    color:red;
+    text-decoration: underline;
+}
+nav button{
+    background-color: black;
+    color: white;
+    border: 0;
+    padding: 5px;
+    border-radius: 14px;
+}
+nav button:hover{
+    background-color: red;
+}
+.sec-1
+{
+    /* background-color: white;
+    box-shadow: -2px 10px 16px 18px rgba(194,184,184,0.75); */
+    width: 100;
+    margin-left: 10%;
+    margin-top: 150px;
+}
+.sec-1 h1{
+    font-size: 90px;
+}
+.subsec-1 ul li{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.subsec-2 ul li{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.subsec-3 ul li{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.subsec-4 ul li{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.main-sec{
+    display: flex;
+    justify-content: space-between;
+}
+.subsec-5{
+    bottom: 30%;
+}
+.subsec-6{
+    align-items: center;
+    margin-left: 10%;
+    bottom: 10%;
+}
+#subsec-7 button{
+margin-left: 50%;
+bottom: 5%;
+background-color :rgb(194, 194, 194);
+padding: 2%;
+border-radius: 20px;
+}
+#subsec-8 h2{
+text-align: center;
+bottom: 5%;
+}
+#subsec-9{
+    text-align: center;
+    margin-bottom: 5%;
+}
